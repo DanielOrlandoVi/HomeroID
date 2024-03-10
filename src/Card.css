@@ -1,0 +1,56 @@
+.Card{
+    width: 500px; /* Ajusta este valor a tu gusto */
+    height: 400px;
+    resize: both;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #3333;
+    background-color: rgb(220, 234, 253);
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #444;
+}
+.Card h2 {
+    font-size: 40px; /* Ajusta este valor a tu gusto */
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+.Contenedor{
+    display: flex;
+    justify-content: space-evenly; /* Esto añade espacio entre los elementos */
+}
+
+.FotoHomero{
+    width: 200px;
+    border: 2px solid #444;
+}
+.DatosHomero{
+    text-align: left;
+}
+
+.nombre {
+    font-size: 30px; /* Ajusta este valor a tu gusto */
+    font-family: 'Courier', monospace;
+    font-weight: bold;
+}
+
+.etiqueta {
+    font-size: 15px; /* Ajusta este valor a tu gusto */
+}
+
+.nacionalidad {
+    font-size: 30px; /* Ajusta este valor a tu gusto */
+    font-family: 'Courier', monospace;
+    font-weight: bold;
+}
+
+.fecha {
+    font-size: 30px; /* Ajusta este valor a tu gusto */
+    font-family: 'Courier', monospace;
+    font-weight: bold;
+}
+
+.lugar {
+    font-size: 30px; /* Ajusta este valor a tu gusto */
+    font-family: 'Courier', monospace;
+    font-weight: bold;
+}
